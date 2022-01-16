@@ -5,7 +5,7 @@
 2. CSS - [Click Here](../master/index.css)
 3. JS - [Click Here](../master/index.js)
 4. Basic Free Covid Tracking API
-<br> API :point_down:
+<br> API   :point_down:
 ```
 https://corona.lmao.ninja/v2/countries/india
 ```
