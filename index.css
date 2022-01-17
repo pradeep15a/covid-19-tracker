@@ -37,6 +37,8 @@ body
 }
 .card:hover{
     transform: translateY(15px) scale(1.15);
+    box-shadow: #ffffff 0 0 3px,
+                #ffffff 0 0 6px;
 }
 
 #active
