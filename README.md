@@ -14,7 +14,14 @@ https://corona.lmao.ninja/v2/countries/india
 ## Logic Used 
   API fetch and display logic
 
+## Repo Clone :point_down: :hearts:
+&nbsp; To Clone This Repo Use This Command On Your Git Bash Shell
+```
+git clone https://github.com/pradeep15a/covid-19-tracker.git
+```
+
 ## ScreenShots
+Click on the images for the website
 ### Desktop View
 <p align="center"> 
     <a href="https://covid-19-tracker-gdsc.vercel.app/" target="_blank"> <img src="./images/desk_snap.JPG" alt="covid tracker" width="100%" height="100%" margin="10px" />
