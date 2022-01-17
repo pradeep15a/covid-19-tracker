@@ -1,29 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,800;1,300&display=swap');
 
-*
+/*Heading Common Attrib*/
+.head-container
 {
-    margin: 0;
-    padding: 0;
-    
+    color: #fff;
+    text-align: center;
 }
+/* h1 design */
+.head-container h1{
+    text-transform: uppercase;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+
+
+/*Body Designing*/
 body
 {
-    background-color: #000000;
+    background-color: rgb(84, 92, 97);
 }
+
+/*Container*/
 .flex-container{
    padding: 30px;
-   
    display:flex;
    align-items: center;
    flex-direction: row;
    justify-content: center;
    flex-wrap: wrap;
    background-color: #51595f;
-   opacity: 0.95;
-   
-   
+   opacity: 0.95;  
 }
+
+/*Cards */
 .card
 {
     position: relative;
@@ -31,37 +42,12 @@ body
     width: 280px;
     height: 100%;
     align-items: center;
+    color: #fff;
     transform-origin: bottom;
     transition: 0.5s;
     
 }
-.card:hover{
-    cursor: pointer;
-    transform: translateY(15px) scale(1.15);
-    box-shadow: #ffffff 0 0 3px,
-                #ffffff 0 0 6px;
-}
-
-#active
-{
-    
-    background: #4285f4;
-}
-#total
-{
-   
-    background: #ea4335;
-}
-#death
-{
-    
-    background: #fbbc05;
-}
-#critic
-{
-    
-    background: #34a853;
-}
+/*Cases Types*/
 .card-body
 {
     color: #fff;
@@ -69,31 +55,36 @@ body
     font-family: 'Outfit', sans-serif;
     text-align: center;
 }
+/*No. Of Cases*/
 .card-text
 {
-    font-weight: 350;
-    text-align: center;
-}
-.head-container
-{
-    display: flex;
-    padding: 12px 18px;
-    flex-direction: column;
-    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
     text-align: center;
 }
 
-.head-container h1{
-    text-align: center;
-    color: #fff;
-    font-family: 'Outfit', sans-serif;
-    font-weight: 600;
+
+/*Colors For Cards*/
+#active
+{
+    background: #4285f4;
 }
-h4{
-    color: #fff;
-    text-align: center;
-    font-weight: 400;
+#total
+{
+   background: #ea4335;
 }
+#death
+{    
+    background: #fbbc05;
+}
+#critic
+{   
+    background: #34a853;
+}
+
+
+
+/*Footer Style*/
 footer p{
     text-align: center;
     color: #fff;
